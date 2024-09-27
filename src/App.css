@@ -1,0 +1,90 @@
+/* Add some global styles in App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Center vertically */
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center text */
+}
+
+h1 {
+  font-size: 24px;
+  color: #2d3748;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #4a5568;
+}
+
+input:focus, textarea:focus {
+  border-color: #3182ce;
+  outline: none;
+  box-shadow: 0 0 0 1px #3182ce;
+}
+
+textarea {
+  height: 100px;
+}
+
+label {
+  color: #4a5568;
+  font-size: 14px;
+}
+
+button {
+  background-color: #0095ff;
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.9s ease;
+}
+
+button:hover {
+  background-color: #005abb;
+}
+
+.agreement {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.agreement label {
+  font-size: 14px;
+  color: #4a5568;
+}
+
+.privacy-policy {
+  color: #3182ce;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.bgbutton {
+  background-color: #007bff;
+}
